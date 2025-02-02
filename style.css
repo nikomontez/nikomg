@@ -315,7 +315,7 @@ a.button.view-portfolio{
 
   @media (max-width: 50em) {
     .education-container{
-        display: none;
+        max-width: none;
     }
 
     .education-svg {
