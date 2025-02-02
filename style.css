@@ -435,6 +435,8 @@ img{
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden !important;
+	margin-top: 0;
+        margin-bottom: 0;
     }
     
     .education-svg {
