@@ -383,6 +383,15 @@ img{
     text-decoration: none;
     color: var(--clr-accent-100);
 }
+@media (max-width: 50em) {
+   .education-container {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+   }
+}
+
 
 @media (max-width: 50em){
     .primary-navigation{
