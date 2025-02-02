@@ -423,6 +423,9 @@ img{
 
     .education-container{
         max-width: none;
+        display: flex; /* Enables centering of content */
+        justify-content: center; /* Centers horizontally */
+        overflow: hidden;
     }
 
     .education-svg {
