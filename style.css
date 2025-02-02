@@ -432,6 +432,7 @@ img{
       max-width: none;  
       width: 175%;  /* Makes the SVG fill the width of its container */
       height: auto; /* Maintains aspect ratio */
+      left: -50%;
     }
     
 }
