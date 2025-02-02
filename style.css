@@ -425,12 +425,11 @@ img{
         max-width: none;
         display: flex; /* Enables centering of content */
         justify-content: center; /* Centers horizontally */
-        overflow: hidden;
     }
 
     .education-svg {
       max-width: none;  
-      width: 100%;  /* Makes the SVG fill the width of its container */
+      width: 90%;  /* Makes the SVG fill the width of its container */
       height: auto; /* Maintains aspect ratio */
       left: -80%;
     }
