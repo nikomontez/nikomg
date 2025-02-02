@@ -425,6 +425,7 @@ img{
         max-width: 200vw;
         height: 100vh;
         display: flex;
+        padding-left: 1rem;
         justify-content: center;
         align-items: center;
         overflow: hidden;
@@ -434,7 +435,6 @@ img{
         width: 200%;        /* Make the SVG significantly larger */
         height: auto;
         position: relative;
-        left: -50%;         /* Shift it left, but less aggressively */
         transform: translateX(25%);  /* Fine-tune centering */
     } 
 }
