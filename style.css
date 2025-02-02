@@ -306,6 +306,13 @@ a.button.view-portfolio{
     }
   }
 
+  @media (max-width: 50em) {
+    .education-svg {
+      width: 160%;  /* Makes the SVG fill the width of its container */
+      height: auto; /* Maintains aspect ratio */
+    }
+  }
+
 .button:hover,
 .button:focus-visible{
     background-color: var(--clr-accent-100)
