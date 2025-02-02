@@ -421,18 +421,21 @@ img{
         display: none;
     }
 
-    .education-container{
-        max-width: none;
-        display: flex; /* Enables centering of content */
-        justify-content: center; /* Centers horizontally */
-    }
+    .education-container {
+    max-width: 100vw; /* Ensure it uses the full viewport width */
+    height: 100vh;    /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically */
+    overflow: hidden;    /* Prevents scrollbars if SVG goes beyond container */
+}
 
-    .education-svg {
-      max-width: none;  
-      width: 120%;  /* Makes the SVG fill the width of its container */
-      height: auto; /* Maintains aspect ratio */
-      left: -80%;
-    }
+.education-svg {
+    width: 150%;    /* Increase size beyond 100% */
+    height: auto;
+    position: relative; 
+    left: -25%;     /* Shift slightly to center after resizing */
+}
     
 }
 
