@@ -301,6 +301,8 @@ a.button.view-portfolio{
     .even-columns .button.portfolio {
       display: block; /* Makes the buttons take full width */
       margin: 0 auto; /* Centers the buttons horizontally */
+      width: 100%; /* Ensures the buttons take the full width of the container */
+    box-sizing: border-box;
     }
   }
 
