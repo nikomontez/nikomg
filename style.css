@@ -255,10 +255,10 @@ margin-inline: auto;
 
 @media (max-width: 768px) { /* Adjust for tablets and smaller devices */
     .padding-block-900 { padding-block: 1.5rem; } /* Reduce padding */
-    .padding-block-700 { padding-block: 3rem; }
-    .padding-block-600 { padding-block: 2.5rem; }
-    .padding-block-500 { padding-block: 2rem; }
-    .padding-block-400 { padding-block: 1.5rem; }
+    .padding-block-700 { padding-block: 1.25rem; }
+    .padding-block-600 { padding-block: 1rem; }
+    .padding-block-500 { padding-block: 0.75rem; }
+    .padding-block-400 { padding-block: 0.5rem; }
     .padding-block-300 { padding-block: 1rem; }
     .padding-block-200 { padding-block: 0.75rem; }
     .padding-block-100 { padding-block: 0.5rem; }
