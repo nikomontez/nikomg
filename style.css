@@ -106,6 +106,7 @@ svg {
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
    scroll-behavior: smooth;
+    scroll-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1.5); 
   }
   
   }
