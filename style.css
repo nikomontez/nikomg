@@ -425,7 +425,7 @@ img{
         max-width: 200vw;
         height: 100vh;
         display: flex;
-        padding-left: 1rem;
+        padding-left: 0.25rem;
         justify-content: center;
         align-items: center;
         overflow: hidden;
