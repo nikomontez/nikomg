@@ -229,7 +229,9 @@ margin-inline: auto;
     --max-width: 1310px;
     --padding: 1rem;
     width: min(var(--max-width), 100% - (var(--padding)*2));
-    margin-inline: auto;    
+    margin-inline: auto; 
+    padding-top: 0;  /* Remove or adjust */
+   padding-bottom: 0;
 }
 
 .even-columns{
