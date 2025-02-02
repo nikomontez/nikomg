@@ -422,21 +422,22 @@ img{
     }
 
     .education-container {
-        max-width: 200vw;
-        height: 100vh;
-        display: flex;
-        padding-left: 0.25rem;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
+        max-width: 100vw !important;
+        height: 100vh !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow: hidden !important;
     }
     
     .education-svg {
-        width: 200%;        /* Make the SVG significantly larger */
-        height: auto;
-        position: relative;
-        transform: translateX(25%);  /* Fine-tune centering */
-    } 
+        width: 200% !important;
+        height: auto !important;
+        position: relative !important;
+        left: -50% !important;
+        transform: translateX(25%) !important;
+        border: 2px solid red !important; /* Visual cue to confirm CSS is applied */
+    }
 }
 
 
