@@ -430,7 +430,7 @@ img{
 
     .education-svg {
       max-width: none;  
-      width: 140%;  /* Makes the SVG fill the width of its container */
+      width: 120%;  /* Makes the SVG fill the width of its container */
       height: auto; /* Maintains aspect ratio */
       left: -100%;
     }
