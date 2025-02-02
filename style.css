@@ -307,6 +307,10 @@ a.button.view-portfolio{
   }
 
   @media (max-width: 50em) {
+    .container{
+        display: none;
+    }
+
     .education-svg {
       max-width: none;  
       width: 260%;  /* Makes the SVG fill the width of its container */
