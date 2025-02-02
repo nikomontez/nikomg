@@ -232,6 +232,13 @@ width: min(var(--max-width), 100% - (var(--padding)*2));
 margin-inline: auto;
 }
 
+.education-container{
+    --max-width: 1310px;
+    --padding: 1rem;
+    width: min(var(--max-width), 100% - (var(--padding)*2));
+    margin-inline: auto;    
+}
+
 .even-columns{
     display: grid;
     gap: 1rem; 
@@ -307,13 +314,13 @@ a.button.view-portfolio{
   }
 
   @media (max-width: 50em) {
-    .container{
+    .education-container{
         display: none;
     }
 
     .education-svg {
       max-width: none;  
-      width: 260%;  /* Makes the SVG fill the width of its container */
+      width: 175%;  /* Makes the SVG fill the width of its container */
       height: auto; /* Maintains aspect ratio */
     }
   }
