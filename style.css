@@ -439,6 +439,7 @@ img{
         max-width: 100vw !important;
        	max-height:600px;
 	padding-top: 3rem;
+	padding-bottom: 3rem;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
