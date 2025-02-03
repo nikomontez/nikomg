@@ -320,6 +320,12 @@ a.button.view-portfolio{
     }
   }
 
+@media (max-width: 50em){
+.mobile-text{
+	font-size: var(--fs-400);
+	}	
+}
+	
 
 .button:hover,
 .button:focus-visible{
