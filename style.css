@@ -383,14 +383,6 @@ img{
     text-decoration: none;
     color: var(--clr-accent-100);
 }
-@media (max-width: 50em) {
-   .education-container {
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-top: 0;
-      padding-bottom: 0;
-   }
-}
 
 
 @media (max-width: 50em){
@@ -439,13 +431,14 @@ img{
 
     .education-container {
         max-width: 100vw !important;
-        height: 100vh !important;
+       	max-height:300px;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
         overflow: hidden !important;
 	margin-top: 0;
         margin-bottom: 0;
+	    
     }
     
     .education-svg {
