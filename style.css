@@ -266,6 +266,12 @@ margin-inline: auto;
     .padding-block-100 { padding-block: 0.5rem; }
 }
 
+@media (max-width: 50em){
+	.responsive-img{
+		display: none;
+	}
+}
+
 /* General Styling */
 
 body{
